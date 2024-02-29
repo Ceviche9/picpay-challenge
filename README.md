@@ -24,8 +24,8 @@ This repository contains the implementation of a simplified PicPay system, allow
 ```json
 {
     "value": 100.0,
-    "payer": 4,
-    "payee": 15
+    "receiverId": 4,
+    "senderId": 15
 }
 
 ```
