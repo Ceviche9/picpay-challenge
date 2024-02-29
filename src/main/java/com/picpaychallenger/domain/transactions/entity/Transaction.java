@@ -1,9 +1,8 @@
-package com.picpaychallenger.domain.transaction;
+package com.picpaychallenger.domain.transactions.entity;
 
-import com.picpaychallenger.domain.user.User;
+import com.picpaychallenger.domain.users.entity.User;
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.Type;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

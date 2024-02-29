@@ -1,6 +1,6 @@
-package com.picpaychallenger.domain.service;
+package com.picpaychallenger.domain.notifications.service;
 
-import com.picpaychallenger.domain.user.User;
+import com.picpaychallenger.domain.users.entity.User;
 import com.picpaychallenger.dto.NotificationRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

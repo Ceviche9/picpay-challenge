@@ -1,9 +1,11 @@
-package com.picpaychallenger.domain.service;
+package com.picpaychallenger.domain.transactions.service;
 
-import com.picpaychallenger.domain.repositories.TransactionRepository;
-import com.picpaychallenger.domain.transaction.Transaction;
-import com.picpaychallenger.domain.user.User;
-import com.picpaychallenger.dto.TransactionDTO;
+import com.picpaychallenger.domain.transactions.repository.TransactionRepository;
+import com.picpaychallenger.domain.notifications.service.NotificationService;
+import com.picpaychallenger.domain.transactions.entity.Transaction;
+import com.picpaychallenger.domain.users.entity.User;
+import com.picpaychallenger.domain.users.service.UserService;
+import com.picpaychallenger.domain.transactions.dto.TransactionDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

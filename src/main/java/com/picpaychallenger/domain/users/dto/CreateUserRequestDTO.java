@@ -1,6 +1,6 @@
-package com.picpaychallenger.dto;
+package com.picpaychallenger.domain.users.dto;
 
-import com.picpaychallenger.domain.user.UserType;
+import com.picpaychallenger.domain.users.entity.UserType;
 
 import java.math.BigDecimal;
 

@@ -1,6 +1,6 @@
-package com.picpaychallenger.domain.repositories;
+package com.picpaychallenger.domain.users.repository;
 
-import com.picpaychallenger.domain.user.User;
+import com.picpaychallenger.domain.users.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

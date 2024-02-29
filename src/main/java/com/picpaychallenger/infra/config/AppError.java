@@ -1,4 +1,4 @@
-package com.picpaychallenger.infra;
+package com.picpaychallenger.infra.config;
 
 import com.picpaychallenger.dto.ExceptionDTO;
 import jakarta.persistence.EntityNotFoundException;

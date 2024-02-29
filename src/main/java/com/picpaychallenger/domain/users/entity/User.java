@@ -1,4 +1,4 @@
-package com.picpaychallenger.domain.user;
+package com.picpaychallenger.domain.users.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

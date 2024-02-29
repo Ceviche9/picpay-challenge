@@ -1,9 +1,9 @@
-package com.picpaychallenger.domain.service;
+package com.picpaychallenger.domain.users.service;
 
-import com.picpaychallenger.domain.repositories.UserRepository;
-import com.picpaychallenger.domain.user.User;
-import com.picpaychallenger.domain.user.UserType;
-import com.picpaychallenger.dto.CreateUserRequestDTO;
+import com.picpaychallenger.domain.users.repository.UserRepository;
+import com.picpaychallenger.domain.users.entity.User;
+import com.picpaychallenger.domain.users.entity.UserType;
+import com.picpaychallenger.domain.users.dto.CreateUserRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

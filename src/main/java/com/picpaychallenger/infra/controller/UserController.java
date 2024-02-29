@@ -1,8 +1,8 @@
-package com.picpaychallenger.domain.controller;
+package com.picpaychallenger.infra.controller;
 
-import com.picpaychallenger.domain.service.UserService;
-import com.picpaychallenger.domain.user.User;
-import com.picpaychallenger.dto.CreateUserRequestDTO;
+import com.picpaychallenger.domain.users.service.UserService;
+import com.picpaychallenger.domain.users.entity.User;
+import com.picpaychallenger.domain.users.dto.CreateUserRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
