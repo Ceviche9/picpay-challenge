@@ -1,3 +1,5 @@
+# Este repositório é apenas o código do desafío abaixo:
+
 # Desafio Back-end PicPay
 
 Primeiramente, obrigado pelo seu interesse em trabalhar na melhor plataforma de pagamentos do mundo!
